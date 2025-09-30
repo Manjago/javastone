@@ -40,6 +40,20 @@
             <version>${pytorch.version}</version>
             <scope>runtime</scope>
         </dependency>
-    </dependencies>
+
+    <!-- Библиотека для работы с токенизатором SentencePiece -->
+    <dependency>
+        <groupId>ai.djl.sentencepiece</groupId>
+        <artifactId>sentencepiece</artifactId>
+        <version>${djl.version}</version>
+    </dependency>
+
+    <!-- Библиотека для работы с JSON (Jackson) -->
+    <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>2.17.0</version>
+    </dependency>
+ </dependencies>
 
 </project>
